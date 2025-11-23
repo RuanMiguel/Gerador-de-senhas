@@ -1,14 +1,14 @@
 🔑 Gerador de Senhas Simples
-Um script Python simples para gerar senhas aleatórias e seguras com um comprimento definido pelo usuário, utilizando letras, números e caracteres especiais.
+- Um script Python simples para gerar senhas aleatórias e seguras com um comprimento definido pelo usuário, utilizando letras, números e caracteres especiais.
 
 ✨ Funcionalidades
-Geração Aleatória: Cria senhas utilizando uma combinação aleatória de letras maiúsculas, minúsculas, dígitos e pontuações/símbolos.
+- Geração Aleatória: Cria senhas utilizando uma combinação aleatória de letras maiúsculas, minúsculas, dígitos e pontuações/símbolos.
 
 Comprimento Definível: Permite ao usuário especificar o tamanho da senha desejada no momento da execução.
 
 🚀 Como Usar
 Pré-requisitos
-Você precisa ter o Python 3 instalado em sua máquina.
+- Você precisa ter o Python 3 instalado em sua máquina.
 
 Execução
 Salve o código fornecido em um arquivo, por exemplo, gerador_senha.py.
