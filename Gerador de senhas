@@ -1,0 +1,19 @@
+import random
+import string
+
+# Função para gerar senha do tipo string.
+def gerador_senha() -> str:
+
+    tamanho = int(input("Qual o tamanho de senha desejado? "))
+
+    # Tipos de caracteres que a senha pode ter, letras, números e caracteres.
+    caracteres = string.ascii_letters + string.digits + string.punctuation
+
+    # Seleciona 8 caracteres únicos e aleatórios da string 'caracteres' e junta em uma única string.
+    return "".join(random.sample(caracteres, tamanho))
+
+print(gerador_senha())
+
+# A função string.punctuation permite todos os caracteres especiais como {[(:< entre outros.
+# É possível excluir qualquer um deles da seguinte forma:
+# caracteres = caracteres.replace('\'', '').replace('"', '').
